@@ -8,15 +8,17 @@
     <script>
 
 
+var numbEnter = 0;
+var finalAnswer;
 
       function factor() {
-        var finalAnswer;
-        var numbEnter = parseInt(prompt("Please enter a number!"));
-          for (var numbEnter=factor; numbEnter>1; numbEnter--) {
-              return finalAnswer = numbEnter*factor;
+        numbEnter = parseInt(prompt("Please enter a number!"));
+          for (var numbEnter= numbEnter; numbEnter>=1; numbEnter--) {
+              finalAnswer = numbEnter*numbEnter;
             }
           }
-      console.log(factor(numbEnter));
+          factor();
+      console.log();
 
 
       </script>
