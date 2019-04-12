@@ -11,9 +11,9 @@
 
       function factor(n) {
       var x = parseInt(prompt("Please enter a number!"));
-      var n = 0;
-          for (i=x; i>=1; i--) {
-            f = i * (i-1);
+      var n = 1;
+          for (i=1; i<=x; i++) {
+            n = n * i;
             }
             return n;
           }
