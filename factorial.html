@@ -7,19 +7,16 @@
   <body>
     <script>
 
-
-
+    var x = parseInt(prompt("Please enter a number!"));
       function factor(n) {
-      var x = parseInt(prompt("Please enter a number!"));
-      var n = 1;
-          for (i=1; i<=x; i++) {
-            n = n * i;
+          for (i = x; 0<=x; i--) {
+          n = i+1;
+          return n = n * i;
             }
-            return n;
           }
-   
-          var fac = factor(n);
-            console.log(fac);
+          console.log(factor());
+
+
       </script>
 
   </body>
